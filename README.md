@@ -13,6 +13,7 @@ An AI-powered real-time dashboard for energy optimization, risk management, and 
 - Digital twin simulation (what-if analysis)
 - Cost optimization (€ insights)
 - Risk & disaster management triggers
+- Carbon tracking 🌱
 - Executive storytelling dashboard
 - Multi-channel alerts (Email + Teams)
 
