@@ -15,8 +15,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # 👇 Your app starts here
-st.title("My App")
-st.write("Content goes here...")
+#st.title("My App")
+#st.write("Content goes here...")
 
 # ----------------------------
 # CONFIG
