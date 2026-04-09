@@ -51,7 +51,7 @@ def trigger_alert(subject, message):
 # ----------------------------
 # ROLE
 # ----------------------------
-role = st.sidebar.selectbox("Select View", ["Operator", "Executive"])
+role = st.sidebar.selectbox("Select View", ["Executive", "Operator"])
 
 # ----------------------------
 # DATA GENERATION
