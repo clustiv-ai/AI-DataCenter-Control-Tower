@@ -10,10 +10,21 @@ from sklearn.ensemble import RandomForestRegressor, IsolationForest
 #Hiding built with streamlit Footer
 st.markdown("""
     <style>
-    footer {visibility: hidden !important;}
+    /* Hide Streamlit footer */
+    footer {display: none !important;}
+
+    /* Hide "Made with Streamlit" text */
+    div[data-testid="stStatusWidget"] {display: none !important;}
+
+    /* Hide header */
+    header {display: none !important;}
+
+    /* Optional: remove top padding */
+    .block-container {
+        padding-top: 1rem;
+    }
     </style>
 """, unsafe_allow_html=True)
-
 # 👇 Your app starts here
 #st.title("My App")
 #st.write("Content goes here...")
