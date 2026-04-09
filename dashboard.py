@@ -7,14 +7,6 @@ import requests
 import smtplib
 from email.mime.text import MIMEText
 from sklearn.ensemble import RandomForestRegressor, IsolationForest
-#Hiding built with streamlit Footer
-st.markdown("""
-    <style>
-    footer, .stApp footer {
-        display: none !important;
-    }
-    </style>
-""", unsafe_allow_html=True)
 
 # 👇 Your app starts here
 #st.title("My App")
