@@ -10,15 +10,8 @@ from sklearn.ensemble import RandomForestRegressor, IsolationForest
 #Hiding built with streamlit Footer
 st.markdown("""
     <style>
-    /* Hide Streamlit footer */
-    footer {display: none !important;}
-    /* Hide "Made with Streamlit" text */
-    div[data-testid="stStatusWidget"] {display: none !important;}
-    /* Hide header */
-    header {display: none !important;}
-    /* Optional: remove top padding */
-    .block-container {
-        padding-top: 1rem;
+    footer, .stApp footer {
+        display: none !important;
     }
     </style>
 """, unsafe_allow_html=True)
