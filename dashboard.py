@@ -10,9 +10,7 @@ from sklearn.ensemble import RandomForestRegressor, IsolationForest
 #Hiding built with streamlit Footer
 st.markdown("""
     <style>
-    #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
-    header {visibility: hidden;}
+    footer {visibility: hidden !important;}
     </style>
 """, unsafe_allow_html=True)
 
